@@ -1,0 +1,27 @@
+# Custom application keybinds
+super + {Return,w,e,g}
+	{alacritty,firefox,emacs,gimp}
+super + r
+	rofi -show run
+super + v
+	alacritty -e vifm
+
+# Bspwm keybinds
+super + {_,shift + }q
+	bspc node -{c,k}
+super + {_,shift + }0
+	bspc {wm -r,quit}
+super + {t,f}
+	bspc node -t {tiled,fullscreen}
+super + {_,shift + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east}
+super + {_,shift + }{1-6}
+	bspc {desktop -f,node -d} {1-6}
+
+# Sxhkd keybinds
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# Computer keybinds
+super + {_,shift + }p
+	{reboot,poweroff}
