@@ -34,7 +34,7 @@ colors:
     green:   '0x585545'
     yellow:  '0xcfa18b'
     blue:    '0x4a6e73'
-    magenta: '0x323123'
+    magenta:  '0xcfa18b'
     cyan:    '0x1fad83'
     white:   '0xa6a28c'
 
@@ -45,7 +45,7 @@ colors:
     green:   '0x565346'
     yellow:  '0xe8cebb'
     blue:    '0x519399'
-    magenta: '0x201c18'
+    magenta:  '0xe8cebb'
     cyan:    '0x1fad83'
     white:   '0xeceef5'
 
