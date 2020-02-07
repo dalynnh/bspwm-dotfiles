@@ -20,55 +20,34 @@ font:
   # Point size
   size: 7.5
 
-# Colors (Tomorrow Night Bright)
+# Colors (Picked from background)
 colors:
   # Default colors
   primary:
-    background: '0x000000'
-    foreground: '0xeaeaea'
-
-  # Cursor colors
-  cursor:
-    text: '0x000000'
-    cursor: '0xffffff'
-
-  # Selection colors
-  selection:
-    text: '0xeaeaea'
-    background: '0x404040'
+    background: '0x1c1913'
+    foreground: '0xedddd5'
 
   # Normal colors
   normal:
-    black:   '0x000000'
-    red:     '0xd54e53'
-    green:   '0xb9ca4a'
-    yellow:  '0xe6c547'
-    blue:    '0x7aa6da'
-    magenta: '0xc397d8'
-    cyan:    '0x70c0ba'
-    white:   '0xeaeaea'
+    black:   '0x20201d'
+    red:     '0xa84927'
+    green:   '0x585545'
+    yellow:  '0xcfa18b'
+    blue:    '0x4a6e73'
+    magenta: '0x323123'
+    cyan:    '0x1fad83'
+    white:   '0xa6a28c'
 
   # Bright colors
   bright:
-    black:   '0x666666'
-    red:     '0xff3334'
-    green:   '0x9ec400'
-    yellow:  '0xe7c547'
-    blue:    '0x7aa6da'
-    magenta: '0xb77ee0'
-    cyan:    '0x54ced6'
-    white:   '0xffffff'
-
-  # Dim colors
-  dim:
-    black:   '0x000000'
-    red:     '0x8c3336'
-    green:   '0x7a8530'
-    yellow:  '0x97822e'
-    blue:    '0x506d8f'
-    magenta: '0x80638e'
-    cyan:    '0x497e7a'
-    white:   '0x9a9a9a'
+    black:   '0x7d7a68'
+    red:     '0xdc5e32'
+    green:   '0x565346'
+    yellow:  '0xe8cebb'
+    blue:    '0x519399'
+    magenta: '0x201c18'
+    cyan:    '0x1fad83'
+    white:   '0xeceef5'
 
 # Background opacity
 background_opacity: 1.0
