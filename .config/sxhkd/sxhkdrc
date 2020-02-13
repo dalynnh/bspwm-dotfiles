@@ -5,6 +5,8 @@ super + r
 	rofi -show run
 super + v
 	alacritty -e vifm
+super + m
+	matlab -desktop
 
 # Bspwm keybinds
 super + {_,shift + }q
