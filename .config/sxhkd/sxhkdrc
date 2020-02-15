@@ -1,6 +1,6 @@
 # Custom application keybinds
-super + {Return,w,e,g}
-	{alacritty,brave,emacs,gimp}
+super + {Return,w,e,g,c}
+	{alacritty,brave,emacs,gimp,code}
 super + r
 	rofi -show run
 super + v
