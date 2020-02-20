@@ -1,12 +1,14 @@
 # Custom application keybinds
-super + {Return,w,e,g,c}
-	{alacritty,brave,emacs,gimp,code}
+super + {Return,w,e,g,c,n}
+	{alacritty,brave,emacs,gimp,code,joplin-desktop}
 super + r
 	rofi -show run
 super + v
 	alacritty -e vifm
 super + m
 	matlab -desktop
+super + {_,shift + }s
+	scrot {_,-s} ~/screenshots/%T-scrot.png
 
 # Bspwm keybinds
 super + {_,shift + }q
