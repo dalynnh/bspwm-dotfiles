@@ -7,9 +7,10 @@ super + v
 	alacritty -e vifm
 super + m
 	matlab -desktop
-super + {_,shift + }s
-	scrot {_,-s} ~/screenshots/%T-scrot.png
-
+super + s
+	scrot ~/screenshots/%T-scrot.png
+super + shift + s
+	sleep 0.2; scrot -s ~/screenshots/%T-scrot.png
 # Bspwm keybinds
 super + {_,shift + }q
 	bspc node -{c,k}
