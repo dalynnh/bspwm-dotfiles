@@ -12,6 +12,9 @@ rofi
 zsh
 zsh-syntax-highlighting
 vifm
+emacs
+gimp
+code
 
 AUR packages:
 polybar
