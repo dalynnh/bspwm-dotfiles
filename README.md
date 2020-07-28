@@ -11,6 +11,7 @@ feh
 rofi
 zsh
 zsh-syntax-highlighting
+vifm
 
 AUR packages:
 polybar
